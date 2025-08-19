@@ -17,7 +17,7 @@ To help implementers, only the more significant changes are listed here.
 
 ### From PW:
 1. ✅ Updated Data Elements and Requirements from NIP  
-2. 🕒 SEIR transaction flow (including diagrams) – *Pending*  
+2. ✅ SEIR transaction flow (including diagrams)  
 3. ✅ Search parameters  
 4. 🕒 Versioning PSGC (for Go Live) – *Pending*  
 5. 🕒 CapabilityStatement – *Pending*
@@ -68,10 +68,11 @@ To help implementers, only the more significant changes are listed here.
 
 ## Change Log
 
-| Date       | Change                                                                                       |
+| Date       | Change                                                                                       
 |------------|-----------------------------------------------------------------------------------------------|
 | 2025-07-17 | Labeled Facility as **"Administering Facility"** (using `Organization` resource).             |
 | 2025-07-17 | Simplified Permanent Address: **kept Barangay Code + Street Address**, removed PSGC hierarchy.|
-| 2025-07-17 | Encounter Type updated: **added `OUTBREAK`**, awaiting `CAMPAIGN` subcategories.             |
-| 2025-07-17 | ✅ NIP data elements updated; ✅ search parameters added.                                       |
-|            | 🕒 SEIR transaction flow, PSGC versioning, and CapabilityStatement – *still pending*.         |
+| 2025-07-17 | Encounter Type updated: **added `OUTBREAK`**, awaiting `CAMPAIGN` subcategories.              |
+| 2025-07-17 | ✅ NIP data elements updated; ✅ search parameters added.                                    |
+| 2025-07-21 |  SEIR transaction flow,                                                                       |
+|            | PSGC versioning, and CapabilityStatement – *still pending*. 
